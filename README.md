@@ -3,7 +3,7 @@
 Utilizando los servicios de Amazon Api Gateway y Lambda para generar un servicion que calcula el cuadraro de un numero, se conecto con un servidor Spark que retorna un api rest y una formulario web.
 
 [![CircleCI](https://circleci.com/gh/Arep-Nico/webSparkLambda-Gatway/tree/master.svg?style=svg)](https://circleci.com/gh/Arep-Nico/webSparkLambda-Gatway/tree/master)
-[![Maven Central](https://img.shields.io/maven-central/v/com.sparkjava/spark-core/2.5)](https://mvnrepository.com/artifact/com.sparkjava/spark-core/2.5)
+[![Maven Central](https://img.shields.io/maven-central/v/com.sparkjava/spark-core/2.9.1)](https://mvnrepository.com/artifact/com.sparkjava/spark-core/2.9.1)
 ![GitHub](https://img.shields.io/github/license/Arep-Nico/Patrones-Arquitecturales)
 
 ### Prerequisitos
