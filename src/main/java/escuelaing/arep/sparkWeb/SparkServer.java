@@ -1,4 +1,4 @@
-package escuelaing.arep.spark;
+package escuelaing.arep.sparkWeb;
 
 import static spark.Spark.*;
 
@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Spark {
+public class SparkServer {
 
     public static void main(String[] args) {
        
@@ -38,6 +38,12 @@ public class Spark {
         });
     }
 
+    /**
+     * 
+     * @param value valor numerico para calcular el cuadrado
+     * @return cuadrado del valor ingresado
+     * @throws MalformedURLException
+     */
     static String javaClient(String value) throws MalformedURLException {
         URL lambda = new URL("https://e4zmb8p2gj.execute-api.us-east-1.amazonaws.com/Beta?value=" + value);
         String inputLine = null;
@@ -47,7 +53,7 @@ public class Spark {
                 res += inputLine;
             }
         } catch (IOException ex) {
-            Logger.getLogger(Spark.class.getName()).log(Level.SEVERE, "Not data get", ex);
+            Logger.getLogger(SparkServer.class.getName()).log(Level.SEVERE, "Not data get", ex);
             System.err.println(ex);
         }
         return res;
