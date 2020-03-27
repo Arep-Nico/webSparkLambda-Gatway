@@ -12,7 +12,7 @@ Se requiere maven y Java version 8 como minimo.
 
 ## Diseño
 
-La documentacion del Api de **Apache Spark** esta a continuacion [aqui](documents/Laboratorio_5_Arep.pdf).
+La documentacion del Api de **Apache Spark** esta a continuacion [aqui](documents/Laboratorio_7_Arep.pdf).
 
 ## Documentacion de Endpoins
 ```
